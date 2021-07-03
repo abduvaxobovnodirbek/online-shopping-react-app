@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/online-shopping-react-project/static/css/main.83c37f0f.chunk.css",
+    "main.js": "/online-shopping-react-project/static/js/main.5eaa79bd.chunk.js",
+    "main.js.map": "/online-shopping-react-project/static/js/main.5eaa79bd.chunk.js.map",
+    "runtime-main.js": "/online-shopping-react-project/static/js/runtime-main.e9bb6fd3.js",
+    "runtime-main.js.map": "/online-shopping-react-project/static/js/runtime-main.e9bb6fd3.js.map",
+    "static/css/2.61b4cb56.chunk.css": "/online-shopping-react-project/static/css/2.61b4cb56.chunk.css",
+    "static/js/2.ec2f11fe.chunk.js": "/online-shopping-react-project/static/js/2.ec2f11fe.chunk.js",
+    "static/js/2.ec2f11fe.chunk.js.map": "/online-shopping-react-project/static/js/2.ec2f11fe.chunk.js.map",
+    "index.html": "/online-shopping-react-project/index.html",
+    "static/css/2.61b4cb56.chunk.css.map": "/online-shopping-react-project/static/css/2.61b4cb56.chunk.css.map",
+    "static/css/main.83c37f0f.chunk.css.map": "/online-shopping-react-project/static/css/main.83c37f0f.chunk.css.map",
+    "static/js/2.ec2f11fe.chunk.js.LICENSE.txt": "/online-shopping-react-project/static/js/2.ec2f11fe.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e9bb6fd3.js",
+    "static/css/2.61b4cb56.chunk.css",
+    "static/js/2.ec2f11fe.chunk.js",
+    "static/css/main.83c37f0f.chunk.css",
+    "static/js/main.5eaa79bd.chunk.js"
+  ]
+}
