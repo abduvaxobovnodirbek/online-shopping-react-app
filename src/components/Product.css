@@ -1,0 +1,80 @@
+.myProduct{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:100%;
+    flex-wrap: wrap;
+}
+
+.myProduct>.content{
+    border: 1px solid rgb(219, 219, 219);
+    width:32%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+.myProduct>.content:hover{
+    box-shadow: rgb(130 124 114) 8px 8px 10px 0px;
+}
+
+
+
+.myProduct>.content>img{
+    height:300px;
+    transition: 0.3s ease;
+    z-index: 2;
+}
+
+.myProduct>.content>.titleInfo{
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+
+.myBtn{
+    display: block;
+    position:absolute;
+    right: -100%;
+    bottom: 10%;
+    z-index: 289;
+    transition: 0.3s ease;
+}
+.myBtn:disabled{
+    bottom: 0;
+    cursor:not-allowed;
+}
+.myProduct>.content:hover .myBtn{
+    right: 0;
+}
+
+@media (max-width:992px) {
+    .myProduct{
+        max-width:90%;
+    }
+    .myProduct>.content{
+        width:45%;
+    }
+}
+
+@media (max-width:768px) {
+    .myProduct{
+        max-width:80%;
+        justify-content: center;
+    }
+    .myProduct>.content{
+        width:80%;
+    }
+}
+
+@media (max-width:576px) {
+    .myProduct{
+        max-width:100%;
+        justify-content: center;
+    }
+    .myProduct>.content{
+        width:90%;
+    }
+}
